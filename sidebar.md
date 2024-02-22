@@ -1,2 +1,2 @@
-- [HISPlayer Unity VisionOS SDK](/introduction.md)
+- [HISPlayer Unity visionOS SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
