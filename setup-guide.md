@@ -17,7 +17,7 @@ Getting started with HISPlayer consists of implementing the following steps:
 
     2.4 Build and Run
 
-It's also possible to import the **HISPlayer Sample** after completing step 1.
+It's also possible to import the **HISPlayer visionOS Sample** after completing step 1.
 The sample is a comprehensive example scene using the HISPlayerSDK to help demonstrate features like play, pause, seek, etc.
 
 ## 1.1 Import Package
