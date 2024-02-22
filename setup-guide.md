@@ -1,0 +1,148 @@
+# QuickStart Guide
+Getting started with HISPlayer consists of implementing the following steps:
+
+1. Import and configure package   
+
+      1.1. Import package
+ 
+      1.2. Configure Unity for visionOS
+   
+2. Create your own sample
+   
+    2.1 Setup HISPlayer Manager
+   
+    2.2 Attach Unity Resources
+   
+    2.3 Configure HISPlayer Properties
+
+    2.4 Build and Run
+
+It's also possible to import the **HISPlayer Sample** after completing step 1.
+The sample is a comprehensive example scene using the HISPlayerSDK to help demonstrate features like play, pause, seek, etc.
+
+## 1.1 Import Package
+Importing the package is the same as importing other normal packages in Unity. Select the package of HISPlayer SDK and import it.
+
+**Assets > Import Package > Custom Package > HISPlayerSDK unity package**
+
+<p align="center">
+<img width=40% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/a094b781-03ef-4f12-bec1-868b713fc5eb">
+</p>
+
+
+## 1.2 Configure Unity for visionOS
+Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.xr.visionos** in the box and wait until 
+the package is installed.
+
+<p align="center">
+<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb06febd-a942-4948-835d-5a6fe23e911a">
+<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/448a9ddd-495f-4d81-86f5-5878462dd270">
+</p>
+
+Open **Edit > Project Settings > XR Plug-in Management** select the visionOS platform and enable the option **Apple visionOS**
+
+<p align="center">
+  <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/9d9c4fee-94ad-451a-ae7c-6a17ef58ae9e">
+</p>
+
+In the same window open **XR Plug-in Management > Project Validation** and click on **Fix All** button. If there is still some error on the panel follow the instructions until you have no errors.
+
+<p align="center">
+  <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f64b004f-452f-4f89-bf99-4b81f3472a5c">
+</p>
+
+In the **Project** window open **Packages > HISPlayer SDK > HISPlayer > Plugins > iOS** select HISPlayeriOS.framework and exclude visionOS platform.
+
+<p align="center">
+  <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/8a1e9242-ed51-469c-b43f-7a7a33d8fdc0">
+</p>
+
+In the **Project** window open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS** select HISPlayerVisionOS.framework, exclude iOS platform and enable the option **Add to Embedded Binaries**.
+
+<p align="center">
+  <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/94c56511-5e7f-46db-adc6-a64cac1fc8fa">
+</p>
+
+## 2.1 Set up HISPlayer Manager
+Create a new script which will inherit from **HISPlayerManager**, for example, visionOSStreamController. It is necessary to add the **'using HISPlayerAPI;'** dependancy. Then, add this component to a new game object (recommended to be empty).
+
+Call the **SetUpPlayer()** function in order to initialize the stream environment internally. This function can be called whenever it’s needed.
+
+For example, using the Awake function:
+
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HISPlayerAPI;
+
+public class visionOSStreamController : HISPlayerManager
+{
+    protected override void Awake()
+    {
+        base.Awake();
+        SetUpPlayer();
+    }
+}
+```
+
+It is strictly necessary to use SetUpPlayer before using anything else. This function initializes everything else that will be needed during the usage of HISPlayer APIs. 
+
+Remember to call the Release function after closing the app or before changing scenes in Unity for freeing the internal resources. 
+
+## 2.2 Attach Unity resources
+
+Move to **Unity Editor** to attach all the resources. The rendering system is supporting **Material** and **RenderTexture** Unity’s components. Raw Image is not available for a VR experience.
+
+### <ins>Material</ins>
+Create a new Material from **Assets > Create > Material** and attach it to the GameObject that is going to be used as screen and to the stream controller component. 
+
+You can also use the **Resources > Materials > HISPlayerDefaultMaterial.mat** we provide in our package. 
+
+<p align="center">
+<img width=40% alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/eacab2a8-7cee-4218-add9-98672f250540">
+<img width=40% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/0e7ff7f9-7b9b-4038-91d3-600597ee65af">
+</p>
+
+### <ins>RenderTexture</ins>
+For this you can use the RenderTexture we provide or create a RenderTexture from zero. In the first case, go to the Resources folder of 
+our package and attach the **Resources > Materials > HISPlayerDefaultMaterialRenderTexture.mat** to the GameObject that is going to be 
+used as screen and the **Resources > RenderTextures > HISPlayerRenderTexture.renderTexture** to the stream controller component.
+
+For creating it from zero, select **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**. 
+This last action can be done automatically by grabbing the **Render Texture** and dropping it at the end of a GameObject's Inspector with 
+the component **Mesh Renderer** with **Material field empty**. This will create the new material inside a **Materials** folder. 
+
+Once all this process it’s done, associate the **RenderTexture** to the script component.
+
+<p align="center">
+<img src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/a0f26bc1-c7b1-432e-ad87-1a2d203d32c8">
+</p>
+
+## 2.3 Configure HISPlayer Properties
+### <ins>License Key</ins>
+Input the license key that is associated with the SDK. If the license key is not valid, the player won't work and will throw an error message. 
+License key is not required for Unity Editor usage.
+
+<p align="center">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f6b00f15-92c3-4f40-ac0f-5b59f1c729f6">
+</p>
+
+### <ins>Multi Stream Properties</ins>
+Use **Multi Stream Properties** to set all configurations needed for multi streams (not supported on Windows Editor). It starts with 0 elements. Each element added has its own configuration for multiple players and corresponds to 1 Render Surface. If you just need a single stream, then you just need to add 1 element with 1 URL.
+* <span style="color:blue">**Render Mode**</span>: Select the render surface. It can be RenderTexture, Material, RawImage or NONE.
+* <span style="color:blue">**Material**</span>: Attach the **Material** asset created to the **Material** section of the element.
+* <span style="color:blue">**Render Texture**</span>: Attach the **RenderTexture** to the **RenderTexture** section of the element.
+* <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Currently only single URL is supported.
+* <span style="color:blue">**Autoplay**</span>: Property to determine whether the player will start automatically after set up.
+  
+<p align="center">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/449c713e-507b-4b9b-ad65-59d2ad3709c0">
+</p>
+
+## 2.4 Build and Run:
+Once the configuration it’s done, open **‘Build Settings’** and press **‘Build And Run’**.
+
+<p align="center">
+<img src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/92c0764b-9a75-4916-9616-c6397b5d7824" width=60%>
+</p>
