@@ -18,6 +18,8 @@ Getting started with HISPlayer consists of implementing the following steps:
     2.4 Build and Run
 
 It's also possible to import the **HISPlayer visionOS Sample** after completing step 1.
+
+Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.1_test.unitypackage) (no need to download it if you have received it in the email).
 The sample is a comprehensive example scene using the HISPlayerSDK to help demonstrate features like play, pause, seek, etc.
 
 ## 1.1 Import Package
