@@ -1,4 +1,4 @@
-# QuickStart Guide
+# Quick Start Guide
 Getting started with HISPlayer consists of implementing the following steps:
 
 1. Import and configure package   
