@@ -106,6 +106,15 @@ You can also use the **Resources > Materials > HISPlayerDefaultMaterial.mat** we
 <img width=40% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/0e7ff7f9-7b9b-4038-91d3-600597ee65af">
 </p>
 
+### <ins>Raw Image</ins>
+This action will be related to Unity’s Canvas. If there is not a Canvas created yet, creating a **Raw Image** will create one automatically.
+
+For the creation, select **GameObject > UI > Raw Image**. Once it is created, attach it to the stream controller component
+
+<p align="center">
+<img width=50% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/6de4ac35-5681-464c-a529-db6a07057a5b">
+</p>
+
 ### <ins>RenderTexture</ins>
 For this you can use the RenderTexture we provide or create a RenderTexture from zero. In the first case, go to the Resources folder of 
 our package and attach the **Resources > Materials > HISPlayerDefaultMaterialRenderTexture.mat** to the GameObject that is going to be 
@@ -134,6 +143,7 @@ License key is not required for Unity Editor usage.
 Use **Multi Stream Properties** to set all configurations needed for multi streams (not supported on Windows Editor). It starts with 0 elements. Each element added has its own configuration for multiple players and corresponds to 1 Render Surface. If you just need a single stream, then you just need to add 1 element with 1 URL.
 * <span style="color:blue">**Render Mode**</span>: Select the render surface. It can be RenderTexture, Material, RawImage or NONE.
 * <span style="color:blue">**Material**</span>: Attach the **Material** asset created to the **Material** section of the element.
+* <span style="color:blue">**Raw Image**</span>: Attach the **RawImage** asset created to the **RawImage** section of the element.
 * <span style="color:blue">**Render Texture**</span>: Attach the **RenderTexture** to the **RenderTexture** section of the element.
 * <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Currently only single URL is supported.
 * <span style="color:blue">**Autoplay**</span>: Property to determine whether the player will start automatically after set up.
