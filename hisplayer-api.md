@@ -74,7 +74,7 @@ The following public APIs are provided by **HISPlayerManager**
    * **public int playerIndex**: The index of the player where the error is triggered.
    * **public float param1**: This will have different meanings depending on the error. If there is no information about the parameter, it will have the default value -1.
    * **public string stringInfo**: Log information about the error.
-  
+
 ## Functions
 The following functions are provided by **HISPlayerManager**. They are **not public** so it’s necessary to create a custom script which inherits from **HISPlayerManager**.
 
