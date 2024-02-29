@@ -19,7 +19,7 @@ Getting started with HISPlayer consists of implementing the following steps:
 
 It's also possible to import the **HISPlayer visionOS Sample** after completing step 1.
 
-Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.1_test.unitypackage) (no need to download it if you have received it in the email).
+Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.1_Beta.unitypackage) (no need to download it if you have received it in the email).
 The sample is a comprehensive example scene using the HISPlayerSDK to help demonstrate features like play, pause, seek, etc.
 
 ## 1.1 Import Package
@@ -66,6 +66,8 @@ In the **Project** window open **Packages > HISPlayer SDK > HISPlayer > Plugins 
 </p>
 
 ## 2.1 Set up HISPlayer Manager
+*You may skip this section if you use [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.1_Beta.unitypackage). The code set-up is already included in the sample script (HISPlayerSample.cs).*
+
 Create a new script which will inherit from **HISPlayerManager**, for example, visionOSStreamController. It is necessary to add the **'using HISPlayerAPI;'** dependancy. Then, add this component to a new game object (recommended to be empty).
 
 Call the **SetUpPlayer()** function in order to initialize the stream environment internally. This function can be called whenever it’s needed.
