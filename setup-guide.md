@@ -56,6 +56,7 @@ In the same window open **XR Plug-in Management > Project Validation** and click
   <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f64b004f-452f-4f89-bf99-4b81f3472a5c">
 </p>
 
+
 ### Deploy for Apple Vision Pro Device
 
 In the **Project** window, open **Packages > HISPlayer SDK > HISPlayer > Plugins > iOS** select HISPlayeriOS.framework and exclude visionOS platform.
@@ -78,6 +79,7 @@ In the case of using the **Apple Vision Pro device**, please, follow these steps
 <p align="center">
   <img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/aa0cdd04-125a-4516-b84b-243607b06d03">
 </p>
+
 
 ### Deploy for Apple Vision Pro Simulator
 
