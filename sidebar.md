@@ -1,4 +1,5 @@
 - [HISPlayer Unity visionOS SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
 - [HISPlayer API](/hisplayer-api.md)
+- [Update the SDK](/update-sdk.md)
 - [Releases](/release.md)
