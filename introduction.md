@@ -14,6 +14,9 @@
 ### Supported Unity Versions
 * 2022
 
+### Supported App mode
+* Virtual Reality - Fully Inmersive Space
+
 ### Supported Unity’s Rendering Mode: 
 * Material Override
 * Raw Image
