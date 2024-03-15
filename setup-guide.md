@@ -57,7 +57,7 @@ In the same window open **XR Plug-in Management > Project Validation** and click
 
 ### Install the PolySpatial Unity package
 
-Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed.
+Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed. This package is necessary for using the [Mixed Reality](/mr-mode.md) mode.
 
 <p align="center">
 <img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb06febd-a942-4948-835d-5a6fe23e911a">
