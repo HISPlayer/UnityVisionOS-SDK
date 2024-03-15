@@ -136,6 +136,20 @@ It is strictly necessary to use SetUpPlayer before using anything else. This fun
 
 Remember to call the Release function after closing the app or before changing scenes in Unity for freeing the internal resources. 
 
+### 2.1.1 Mixed Reality mode
+In order to use the Mixed Reality, please, copy the following code in your code. For more information, refer to [Mixed Reality](https://hisplayer.github.io/UnityVisionOS-SDK/#/mr-mode)
+
+```C#
+    protected override void EventVisionOSTextureUpdated(HISPlayerEventInfo eventInfo)
+    {
+        StreamProperties stream = multiStreamProperties[eventInfo.playerIndex];
+
+        // Unity.PolySpatialObjectUtils.MarkDirty(renderTexture) is used to render correctly on Mixed Reality mode
+        // Use the RenderTexture attached to the stream with index {eventInfo.playerIndex}"
+       PolySpatialObjectUtils.MarkDirty(stream.renderTexture);
+    }
+```
+
 ## 2.2 Attach Unity resources
 
 Move to **Unity Editor** to attach all the resources. The rendering system is supporting **Material** and **RenderTexture** Unity’s components. Raw Image is not available for a VR experience.
