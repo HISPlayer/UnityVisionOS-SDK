@@ -64,12 +64,6 @@ Open the window **Window > Package Manager located in the upper side of the scre
 <img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/fda546ce-080d-4dcb-9a66-f1a283d51d51">
 </p>
 
-Open **Edit > Project Settings > XR Plug-in Management** select the visionOS platform and enable the option **Apple visionOS**
-
-<p align="center">
-  <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/9d9c4fee-94ad-451a-ae7c-6a17ef58ae9e">
-</p>
-
 ### Deploy for Apple Vision Pro Device
 
 In the **Project** window, open **Packages > HISPlayer SDK > HISPlayer > Plugins > iOS** select HISPlayeriOS.framework and exclude visionOS platform.
