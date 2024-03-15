@@ -12,6 +12,8 @@ Importing the package is the same as importing other normal packages in Unity. S
 </p>
 
 - Complete the configuration for visionOS ->  [**Configure Unity for visionOS**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=_12-configure-unity-for-visionos)
+  - To deploy for VisionPro device, please refer to the following configuration : [**Deploy for VisionPro Device**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=deploy-for-apple-vision-pro-device)
+  - To deploy for VisionPro simulator, please refer to the following configuration : [**Deploy for VisionPro Simulator**](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=deploy-for-apple-vision-pro-simulator)
 
 - Open the scene **Assets/HISPlayerSample/Scenes/HISPlayerSampleMR.unity or HISPlayerSampleVR.unity**
    - HISPlayerSampleMR.unity is made for Mixed Reality experience
