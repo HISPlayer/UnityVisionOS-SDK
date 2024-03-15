@@ -1,7 +1,6 @@
 # Mixed Reality mode
 
-For using **Mixed Reality** with Unity the **[PolySpatial](https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@0.1/manual/index.html)** package
-must be imported in your project.
+For using **Mixed Reality** with Unity, the **[PolySpatial](https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@0.1/manual/index.html)** package must be imported in your project.
 
 If you don't have the package in your project, please, open the window **Window > Package Manager located in the upper side of the screen > 
 Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed.
@@ -11,8 +10,13 @@ Click on '+' > Add package by name** and write **com.unity.polyspatial** in the 
 <img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/fda546ce-080d-4dcb-9a66-f1a283d51d51">
 </p>
 
-In any case, when you select the Mixed Reality mode in Player Settings Unity will force you to install it. 
+You can select the Mixed Reality mode by **Edit > Project Settings > XR Plug-in Management > Apple visionOS > App Mode > Mixed Reality - Volume or Immersive Space**. 
 
+<p align="center">
+<img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/10926ad5-6efe-4f47-ac54-27a18d371633">
+</p>
+
+If you haven't installed PolySpatial package yet, Unity will ask you to do it.
 
 <p align="center">
 <img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bcb507e9-398a-4771-8325-a997a2a77409">
