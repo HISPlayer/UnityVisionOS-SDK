@@ -36,8 +36,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 ### Install the visionOS Unity package
 
-Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.xr.visionos** in the box and wait until 
-the package is installed.
+Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.xr.visionos** in the box and wait until the package is installed.
 
 <p align="center">
 <img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb06febd-a942-4948-835d-5a6fe23e911a">
@@ -56,6 +55,20 @@ In the same window open **XR Plug-in Management > Project Validation** and click
   <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f64b004f-452f-4f89-bf99-4b81f3472a5c">
 </p>
 
+### Install the PolySpatial Unity package
+
+Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed.
+
+<p align="center">
+<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb06febd-a942-4948-835d-5a6fe23e911a">
+<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/fda546ce-080d-4dcb-9a66-f1a283d51d51">
+</p>
+
+Open **Edit > Project Settings > XR Plug-in Management** select the visionOS platform and enable the option **Apple visionOS**
+
+<p align="center">
+  <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/9d9c4fee-94ad-451a-ae7c-6a17ef58ae9e">
+</p>
 
 ### Deploy for Apple Vision Pro Device
 
@@ -99,7 +112,7 @@ In the case of using the **Apple Vision Pro simulator** for Xcode, please, follo
 </p>
 
 ## 2.1 Set up HISPlayer Manager
-*You may skip this section if you use [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.1_Beta.unitypackage). The code set-up is already included in the sample script (HISPlayerSample.cs).*
+*You may skip this section if you use [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.3_Beta.unitypackage). The code set-up is already included in the sample script (HISPlayerController.cs).*
 
 Create a new script which will inherit from **HISPlayerManager**, for example, visionOSStreamController. It is necessary to add the **'using HISPlayerAPI;'** dependancy. Then, add this component to a new game object (recommended to be empty).
 
