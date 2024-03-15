@@ -18,8 +18,6 @@
 * Virtual Reality - Fully Immersive Space
 
 ### Supported Unity’s Rendering Mode: 
-* Material Override
-* Raw Image
 * Render Texture
 
 ### Supported Graphics API:
