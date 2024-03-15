@@ -157,7 +157,7 @@ This event occurs whenever an internal playback is buffering.
 Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT** is triggered.
 This event occurs whenever an internal playlist reaches the end of the list.
 
-#### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
+#### protected virtual void EventVisionOSTextureUpdated(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_VISIONOS_TEXTURE_UPDATED** is triggered.
 This event occurs every time the RenderTexture is update internally. Please, call **Unity.PolySpatialObjectUtils.MarkDirty(renderTexture)** to be able to render on Mixed Reality. The RenderTexture is the one attached to the stream with the index eventInfo.playerIndex.
 
