@@ -43,6 +43,7 @@ The following public APIs are provided by **HISPlayerManager**
     * **HISPLAYER_EVENT_PLAYBACK_BUFFERING**
     * **HISPLAYER_EVENT_NETWORK_CONNECTED**
     * **HISPLAYER_EVENT_END_OF_CONTENT**
+    * **HISPLAYER_EVENT_VISIONOS_TEXTURE_UPDATED**
 
 * **public enum HISPlayerError**: The list of errors provided by HISPlayer SDK. The errors can be used with the virtual functions in the next section:
    * **HISPLAYER_ERROR_LICENSE_EXPIRED** (no function on this)
@@ -155,6 +156,10 @@ This event occurs whenever an internal playback is buffering.
 #### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
 Override this method to add custom logic when **HISPlayerEvent.HISPlayer_EVENT_END_OF_CONTENT** is triggered.
 This event occurs whenever an internal playlist reaches the end of the list.
+
+#### protected virtual void EventEndOfContent(HISPlayerEventInfo eventInfo)
+Override this method to add custom logic when **HISPlayerEvent.HISPLAYER_EVENT_VISIONOS_TEXTURE_UPDATED** is triggered.
+This event occurs every time the RenderTexture is update internally. Please, call **Unity.PolySpatialObjectUtils.MarkDirty(renderTexture)** to be able to render on Mixed Reality. The RenderTexture is the one attached to the stream with the index eventInfo.playerIndex.
 
 #### protected virtual void ErrorInfo(HISPlayerErrorInfo subtitlesInfo)
 Override this method to add custom logic when an error callback is triggered. Please, refer to the **HISPlayerError** list.
