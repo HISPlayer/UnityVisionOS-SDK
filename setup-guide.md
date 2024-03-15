@@ -149,13 +149,13 @@ Move to **Unity Editor** to attach all the resources. The rendering system is su
 In the case of **Virtual Reality** mode, please, refer to **Packages > HISPlayer SDK > Resources > Materials > HISPlayerDefaultMaterialRenderTexture.mat** and **Packages > HISPlayer SDK > Resources > RenderTextures > HISPlayerRenderTexture.renderTexture**. You can attach the HISPlayerDefaultMaterialRenderTexture.mat to the GameObject that is going to render the video content. Finally, attach HISPlayerRenderTexture.renderTexture to the stream controller component.
 
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/2d4e3196-16a5-4728-80b4-bf1b6ddbb5a8">
+<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/2d4e3196-16a5-4728-80b4-bf1b6ddbb5a8">
 </p>
 
 </br>
 
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/65615f47-bb39-4c8c-bf30-7db12490d3a2">
+<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/65615f47-bb39-4c8c-bf30-7db12490d3a2">
 </p>
 
 You can also create your own RenderTexture by clicking **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**.
@@ -166,13 +166,13 @@ We recommend you to create your own shaders for the created material. Please, re
 In the case of **Mixed Reality** mode, please, import our [HISPlayer Sample](./import-sample.md) and refer to **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRMaterial.material** and **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRRenderTexture.renderTexture**. You can attach the HISPlayerVisionOSMRMaterial.material to the GameObject that is going to render the video content. Finally, attach HISPlayerVisionOSMRRenderTexture.renderTexture to the stream controller component.
 
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb75e4ee-2524-4181-9470-74bc75663184">
+<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb75e4ee-2524-4181-9470-74bc75663184">
 </p>
 
 </br>
 
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/c9342fdc-f0f1-4fec-97bc-716a8451760f">
+<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/c9342fdc-f0f1-4fec-97bc-716a8451760f">
 </p>
 
 You can also create your own RenderTexture by clicking **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**.
