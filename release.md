@@ -6,7 +6,7 @@
 
 ### Version 3.3.2_Beta
 ##### March 5, 2024
-- Software robusenets improvement.
+- Software robustness improvement.
 
 ### Version 3.3.1_Beta
 ##### February 22, 2024
