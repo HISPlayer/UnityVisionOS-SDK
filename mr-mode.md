@@ -26,7 +26,7 @@ If you haven't installed PolySpatial package yet, Unity will ask you to do it.
 Once you have installed the PolySpatial package, please, refer to [EventVisionOSTextureUpdated](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-virtual-void-eventvisionostextureupdatedhisplayereventinfo-eventinfo).
  This event is triggered when the RenderTexture used to rendering the video is updated. 
 
-Override the function in your code and call the **protected virtual void EventVisionOSTextureUpdated(HISPlayerEventInfo eventInfo)** API and call the 
+Override the function **protected virtual void EventVisionOSTextureUpdated(HISPlayerEventInfo eventInfo)** and call the 
 [**Unity.PolySpatial.PolySpatialObjectUtils.MarkDirty(renderTexture)**](https://docs.unity3d.com/Packages/com.unity.polyspatial@1.1/api/Unity.PolySpatial.PolySpatialObjectUtils.html) API to 
 allow the rendering in the Mixed Reality mode. The 'renderTexture' parameter is the one attached to the stream with the index **eventInfo.playerIndex**.
 
