@@ -131,39 +131,40 @@ Remember to call the Release function after closing the app or before changing s
 
 Move to **Unity Editor** to attach all the resources. The rendering system is supporting **Material** and **RenderTexture** Unity’s components. Raw Image is not available for a VR experience.
 
-### <ins>Material</ins>
-Create a new Material from **Assets > Create > Material** and attach it to the GameObject that is going to be used as screen and to the stream controller component. 
-
-You can also use the **Resources > Materials > HISPlayerDefaultMaterial.mat** we provide in our package. 
-
-<p align="center">
-<img width=40% alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/eacab2a8-7cee-4218-add9-98672f250540">
-<img width=40% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/0e7ff7f9-7b9b-4038-91d3-600597ee65af">
-</p>
-
-### <ins>Raw Image</ins>
-This action will be related to Unity’s Canvas. If there is not a Canvas created yet, creating a **Raw Image** will create one automatically.
-
-For the creation, select **GameObject > UI > Raw Image**. Once it is created, attach it to the stream controller component
-
-<p align="center">
-<img width=50% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/6de4ac35-5681-464c-a529-db6a07057a5b">
-</p>
-
 ### <ins>RenderTexture</ins>
-For this you can use the RenderTexture we provide or create a RenderTexture from zero. In the first case, go to the Resources folder of 
-our package and attach the **Resources > Materials > HISPlayerDefaultMaterialRenderTexture.mat** to the GameObject that is going to be 
-used as screen and the **Resources > RenderTextures > HISPlayerRenderTexture.renderTexture** to the stream controller component.
-
-For creating it from zero, select **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**. 
-This last action can be done automatically by grabbing the **Render Texture** and dropping it at the end of a GameObject's Inspector with 
-the component **Mesh Renderer** with **Material field empty**. This will create the new material inside a **Materials** folder. 
-
-Once all this process it’s done, associate the **RenderTexture** to the script component.
+#### Virtual Reality Mode
+In the case of **Virtual Reality** mode, please, refer to **Packages > HISPlayer SDK > Resources > Materials > HISPlayerDefaultMaterialRenderTexture.mat** and **Packages > HISPlayer SDK > Resources > RenderTextures > HISPlayerRenderTexture.renderTexture**. You can attach the HISPlayerDefaultMaterialRenderTexture.mat to the GameObject that is going to render the video content. Finally, attach HISPlayerRenderTexture.renderTexture to the stream controller component.
 
 <p align="center">
-<img src="https://github.com/HISPlayer/UnityiOS-SDK/assets/47497948/a0f26bc1-c7b1-432e-ad87-1a2d203d32c8">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/2d4e3196-16a5-4728-80b4-bf1b6ddbb5a8">
 </p>
+
+</br>
+
+<p align="center">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/65615f47-bb39-4c8c-bf30-7db12490d3a2">
+</p>
+
+You can also create your own RenderTexture by clicking **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**.
+
+We recommend you to create your own shaders for the created material. Please, refer to  **Packages > HISPlayer SDK > Scripts > Shaders > HISPlayerDefaultShader.shader** 
+
+#### Mixed Reality mode
+In the case of **Mixed Reality** mode, please, import our [HISPlayer Sample](./import-sample.md) and refer to **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRMaterial.material** and **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRRenderTexture.renderTexture**. You can attach the HISPlayerVisionOSMRMaterial.material to the GameObject that is going to render the video content. Finally, attach HISPlayerVisionOSMRRenderTexture.renderTexture to the stream controller component.
+
+<p align="center">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb75e4ee-2524-4181-9470-74bc75663184">
+</p>
+
+</br>
+
+<p align="center">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/c9342fdc-f0f1-4fec-97bc-716a8451760f">
+</p>
+
+You can also create your own RenderTexture by clicking **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**.
+
+We recommend you to create your own shaders for the created material. Please, refer to  **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRShader.shadergraph**.
 
 ## 2.3 Configure HISPlayer Properties
 ### <ins>License Key</ins>
@@ -177,8 +178,6 @@ License key is not required for Unity Editor usage.
 ### <ins>Multi Stream Properties</ins>
 Use **Multi Stream Properties** to set all configurations needed for multi streams (not supported on Windows Editor). It starts with 0 elements. Each element added has its own configuration for multiple players and corresponds to 1 Render Surface. If you just need a single stream, then you just need to add 1 element with 1 URL.
 * <span style="color:blue">**Render Mode**</span>: Select the render surface. It can be RenderTexture, Material, RawImage or NONE.
-* <span style="color:blue">**Material**</span>: Attach the **Material** asset created to the **Material** section of the element.
-* <span style="color:blue">**Raw Image**</span>: Attach the **RawImage** asset created to the **RawImage** section of the element.
 * <span style="color:blue">**Render Texture**</span>: Attach the **RenderTexture** to the **RenderTexture** section of the element.
 * <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Currently only single URL is supported.
 * <span style="color:blue">**Autoplay**</span>: Property to determine whether the player will start automatically after set up.
