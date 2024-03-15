@@ -16,6 +16,7 @@
 
 ### Supported App mode
 * Virtual Reality - Fully Immersive Space
+* [Mixed Reality - Volume or Immersive Space](https://hisplayer.github.io/UnityVisionOS-SDK/#/mr-mode)
 
 ### Supported Unity’s Rendering Mode: 
 * Render Texture
