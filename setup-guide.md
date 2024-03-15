@@ -163,7 +163,7 @@ You can also create your own RenderTexture by clicking **Assets > Create > Rende
 We recommend you to create your own shaders for the created material. Please, refer to  **Packages > HISPlayer SDK > Scripts > Shaders > HISPlayerDefaultShader.shader** 
 
 #### Mixed Reality mode
-In the case of **Mixed Reality** mode, please, import our [HISPlayer Sample](./import-sample.md) and refer to **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRMaterial.material** and **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRRenderTexture.renderTexture**. You can attach the HISPlayerVisionOSMRMaterial.material to the GameObject that is going to render the video content. Finally, attach HISPlayerVisionOSMRRenderTexture.renderTexture to the stream controller component.
+In the case of **Mixed Reality** mode, please, import our [HISPlayer Sample](https://hisplayer.github.io/UnityVisionOS-SDK/#/./import-sample) and refer to **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRMaterial.material** and **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRRenderTexture.renderTexture**. You can attach the HISPlayerVisionOSMRMaterial.material to the GameObject that is going to render the video content. Finally, attach HISPlayerVisionOSMRRenderTexture.renderTexture to the stream controller component.
 
 <p align="center">
 <img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb75e4ee-2524-4181-9470-74bc75663184">
