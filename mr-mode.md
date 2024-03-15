@@ -37,7 +37,7 @@ You can use the following fragment code:
     {
         StreamProperties stream = multiStreamProperties[eventInfo.playerIndex];
 
-        // Unity.PolySpatialObjectUtils.MarkDirty(renderTexture) is use to render correctly on Mixed Reality mode
+        // Unity.PolySpatialObjectUtils.MarkDirty(renderTexture) is used to render correctly on Mixed Reality mode
         // Use the RenderTexture attached to the stream with index {eventInfo.playerIndex}"
        PolySpatialObjectUtils.MarkDirty(stream.renderTexture);
     }
