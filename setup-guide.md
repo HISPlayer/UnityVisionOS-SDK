@@ -137,7 +137,7 @@ It is strictly necessary to use SetUpPlayer before using anything else. This fun
 Remember to call the Release function after closing the app or before changing scenes in Unity for freeing the internal resources. 
 
 ### 2.1.1 Mixed Reality mode
-In order to use the Mixed Reality, please, copy the following code in your code. For more information, refer to [Mixed Reality](https://hisplayer.github.io/UnityVisionOS-SDK/#/mr-mode)
+In order to use the Mixed Reality, please, copy the following code in your code. For more information, refer to [Mixed Reality](https://hisplayer.github.io/UnityVisionOS-SDK/#/mr-mode).
 
 ```C#
     protected override void EventVisionOSTextureUpdated(HISPlayerEventInfo eventInfo)
