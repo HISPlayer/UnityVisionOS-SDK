@@ -43,4 +43,20 @@ You can use the following fragment code:
     }
 ```
 
+### HISPayer Mixed Reality Render
 
+Please, import our [HISPlayer Sample](https://hisplayer.github.io/UnityVisionOS-SDK/#/./import-sample) and refer to **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRMaterial.material** and **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRRenderTexture.renderTexture**. You can attach the HISPlayerVisionOSMRMaterial.material to the GameObject that is going to render the video content (refer to Canvas > ScreenRenderTexture GameObject in the sample scene). Finally, attach HISPlayerVisionOSMRRenderTexture.renderTexture to the stream controller component (refer to HISPlayerController GameObject).
+
+<p align="center">
+<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb75e4ee-2524-4181-9470-74bc75663184">
+</p>
+
+</br>
+
+<p align="center">
+<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/c9342fdc-f0f1-4fec-97bc-716a8451760f">
+</p>
+
+You can also create your own RenderTexture by clicking **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**.
+
+We highly recommend you to create your own shaders for the created material. Please, refer to  **Assets > HISPlayerSample > Resources > visionOS-MR > HISPlayerVisionOSMRShader.shadergraph**.
