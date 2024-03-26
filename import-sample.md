@@ -38,7 +38,7 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Review that the scene you want to run is correctly configured. Please, open **Player Settings > XR Plug-in Management > Apple visionOS > App Mode** and select:
    - **Virtual Reality - Fully Immersive Space** for **HISPlayerSampleVR.unity**
-   - **Mixed Reality - Volume or Immersive Space** for **HISPlayerSampleMR.unit**
+   - **Mixed Reality - Volume or Immersive Space** for **HISPlayerSampleMR.unity**
 
 - Build and Run
 
