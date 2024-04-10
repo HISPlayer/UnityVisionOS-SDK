@@ -1,6 +1,6 @@
-# Import HISPlayer Sample
+# Import HISPlayer visionOS Sample Beta
 
-Please, download the sample here -> [**HISPlayer Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.3_Beta.unitypackage) 
+Please, download the sample here -> [**HISPlayer visionOS Sample Beta**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.3_Beta.unitypackage) 
 (no need to download it if you have received it in the email).
 
 Importing the package is the same as importing other normal packages in Unity. Select the downloaded package and import it.
