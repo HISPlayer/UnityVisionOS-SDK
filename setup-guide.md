@@ -202,8 +202,10 @@ License key is not required for Unity Editor usage.
 Use **Multi Stream Properties** to set all configurations needed for multi streams (not supported on Windows Editor). It starts with 0 elements. Each element added has its own configuration for multiple players and corresponds to 1 Render Surface. If you just need a single stream, then you just need to add 1 element with 1 URL.
 * <span style="color:blue">**Render Mode**</span>: Select the render surface. It can be RenderTexture, Material, RawImage or NONE.
 * <span style="color:blue">**Render Texture**</span>: Attach the **RenderTexture** to the **RenderTexture** section of the element.
-* <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Currently only single URL is supported.
+* <span style="color:blue">**URL**</span>: Add the URL associated to the stream. Each stream can have multiple URLs, therefore users can use the same render surface to play different URLs.
 * <span style="color:blue">**Autoplay**</span>: Property to determine whether the player will start automatically after set up.
+* <span style="color:blue">**Loop Playback**</span>: Property to loop the current playback. It’s true by default.
+* <span style="color:blue">**Auto Transition**</span>: Property to change the playback to the next video in the playlist. This action won’t have effect when loopPlayback is true. It’s false by default.
   
 <p align="center">
 <img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/449c713e-507b-4b9b-ad65-59d2ad3709c0">
