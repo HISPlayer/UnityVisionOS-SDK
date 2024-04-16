@@ -1,5 +1,15 @@
 # Mixed Reality mode
 
+### Verify the visionOS Unity package
+
+Please, verify you have installed the **com.unity.xr.visionos** package. Open the window **Window > Package Manager** located in the upper side of the screen and look for the package. In the case you haven't installed it yet, please, refer to [Install the visionOS Unity package](https://hisplayer.github.io/UnityVisionOS-SDK/#/setup-guide?id=install-the-visionos-unity-package)
+
+<p align="center">
+<img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/01bc480f-186f-47f4-a550-259ee825f94c">
+</p>
+
+### Install the PolySpatial Unity package
+
 For using **Mixed Reality** with Unity, the **[PolySpatial](https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@0.1/manual/index.html)** package must be imported in your project.
 
 If you don't have the package in your project, please, open the window **Window > Package Manager located in the upper side of the screen > 
