@@ -10,7 +10,7 @@ Please, verify you have installed the **com.unity.xr.visionos** package. Open th
 
 ### IL2CPP Large Exe Workaround
 
-It's possible that you experimented issues related with the IL2CPP scripting backend. Please, consider to enable the **IL2CPP Large Exe Workaround** 
+It's possible that you experiment issues related with the IL2CPP scripting backend. Please, consider to enable the **IL2CPP Large Exe Workaround** 
 on the settings for Virtual Reality mode.
 
 * **Edit > Project Settings > XR Plug-in Management > Apple visionOS > Enable IL2CPP scripting backend**
