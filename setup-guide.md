@@ -55,6 +55,17 @@ In the same window open **XR Plug-in Management > Project Validation** and click
   <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f64b004f-452f-4f89-bf99-4b81f3472a5c">
 </p>
 
+### IL2CPP Large Exe Workaround
+
+In the case you are using Virtual Reality mode, it's possible that you experiment issues related with the **IL2CPP scripting backend**.
+Please, consider to enable the **IL2CPP Large Exe Workaround** on the settings for Virtual Reality mode.
+
+* **Edit > Project Settings > XR Plug-in Management > Apple visionOS > Enable IL2CPP scripting backend**
+
+<p align="center">
+<img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/a6107ec8-32cb-4b36-99d7-cbb0884c5baa">
+</p>
+
 ### Install the PolySpatial Unity package
 
 Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed. 
