@@ -13,11 +13,11 @@ Please, verify you have installed the **com.unity.xr.visionos** package. Open th
 For using **Mixed Reality** with Unity, the **[PolySpatial](https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@0.1/manual/index.html)** package must be imported in your project.
 
 If you don't have the package in your project, please, open the window **Window > Package Manager located in the upper side of the screen > 
-Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed.
+Click on '+' > Add package by name** and write **com.unity.polyspatial.visionos** in the box and wait until the package is installed.
 
 <p align="center">
 <img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb06febd-a942-4948-835d-5a6fe23e911a">
-<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/fda546ce-080d-4dcb-9a66-f1a283d51d51">
+<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/366fe4a5-2bbf-4cb6-b45a-2598a95ec9a2">
 </p>
 
 You can select the Mixed Reality mode by **Edit > Project Settings > XR Plug-in Management > Apple visionOS > App Mode > Mixed Reality - Volume or Immersive Space**. 

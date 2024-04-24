@@ -1,4 +1,4 @@
-# HISPlayer Unity visionOS SDK (Beta)
+# HISPlayer Unity visionOS SDK
 
 ## Compatibility
 

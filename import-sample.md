@@ -1,6 +1,6 @@
-# Import HISPlayer visionOS Sample Beta
+# Import HISPlayer visionOS Sample
 
-Please, download the sample here -> [**HISPlayer visionOS Sample Beta**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.3_Beta.unitypackage) 
+Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/visionOS/HISPlayer_visionOS_Sample.unitypackage) 
 (no need to download it if you have received it in the email).
 
 Importing the package is the same as importing other normal packages in Unity. Select the downloaded package and import it.
@@ -25,10 +25,12 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Import TextMesh Pro Essential
 
-- Input the license key through the Inspector. **HISPlayerController** GameObject -> **HISPlayerController** component -> **License Key**
+- Input the license key through the Inspector.
+  - VR Mode: **HISPlayerController** GameObject -> **HISPlayerVRController** component -> **License Key**
+  - MR Mode: **HISPlayerController** GameObject -> **HISPlayerMRController** component -> **License Key**
 
 <p align="center">
-  <img width=80% alt="image" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/f99d01df-847e-4289-9a33-364ce9210e53">
+  <img width=80% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/83d30e56-f1e2-4fdb-be27-4834e12a842f">
 </p>
 
 - Open **File** > **Build Settings** > **Add Open Scenes**. 
@@ -42,7 +44,10 @@ Importing the package is the same as importing other normal packages in Unity. S
 
 - Build and Run
 
-To check how to set up the SDK and API usage, please refer to **Assets/HISPlayerSample/Scripts/HISPlayerController.cs** and **HISPlayerController GameObject** in the Editor.
+To check how to set up the SDK and API usage, please refer to:
+  
+  - VR Mode: **Assets/HISPlayerSample/Scripts/HISPlayerVRController.cs** and **HISPlayerController GameObject** in the Editor.
+  - MR Mode: **Assets/HISPlayerSample/Scripts/HISPlayerMRController.cs** and **HISPlayerController GameObject** in the Editor.
 
 ## UI Demo
 The UI components in the HISPlayerSampleVR.unity are fully modifiable and each stream has its own UI. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc using the multi stream feature. 
@@ -56,7 +61,7 @@ The UI components in the HISPlayerSampleVR.unity are fully modifiable and each s
 </p>
 
 ## Add/Remove Streams and URLs
-In order to add/remove streams and URLs, please refer to the component **HISPlayerController** attached to the **HISPlayerController GameObject** in the **Inspector**. 
+In order to add/remove streams and URLs, please refer to the component **HISPlayerVRController** attached to the **HISPlayerController GameObject** in the **Inspector** within the **HISPlayerSampleVR.unity** scene. 
 
 ### Add/Remove Streams
 
