@@ -11,7 +11,6 @@
   - HISPlayer360Material.mat
   - HISPlayer180RenderTexture.rendertexture
   - HISPlayer360RenderTexture.rendertexture
-- [**Improvement**] HISPlayer360Shader.shader has been improved
 
 ### Version 3.4.1
 ##### April 23, 2024
