@@ -19,7 +19,7 @@ Getting started with HISPlayer consists of implementing the following steps:
 
 It's also possible to import the **HISPlayer visionOS Sample** after completing step 1.
 
-Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.1_Beta.unitypackage) (no need to download it if you have received it in the email).
+Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/visionOS/HISPlayer_visionOS_Sample.unitypackage) (no need to download it if you have received it in the email).
 The sample is a comprehensive example scene using the HISPlayerSDK to help demonstrate features like play, pause, seek, etc.
 
 ## 1.1 Import Package
@@ -49,7 +49,7 @@ Open **Edit > Project Settings > XR Plug-in Management** select the visionOS pla
   <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/9d9c4fee-94ad-451a-ae7c-6a17ef58ae9e">
 </p>
 
-In the same window open **XR Plug-in Management > Project Validation** and click on **Fix All** button. If there is still some error on the panel follow the instructions until you have no errors.
+In the same window open **XR Plug-in Management > Project Validation**, select the desired profile from the **Selected Profiles** dropdown and click on **Fix All** button. If there is still some error on the panel follow the instructions until you have no errors.
 
 <p align="center">
   <img width=75% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f64b004f-452f-4f89-bf99-4b81f3472a5c">
@@ -68,13 +68,13 @@ Please, consider to enable the **IL2CPP Large Exe Workaround** on the settings f
 
 ### Install the PolySpatial Unity package
 
-Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.polyspatial** in the box and wait until the package is installed. 
+Open the window **Window > Package Manager located in the upper side of the screen > Click on '+' > Add package by name** and write **com.unity.polyspatial.visionos** in the box and wait until the package is installed. 
 
 Please, after installing the package refer to [Mixed Reality](/mr-mode.md) to know how to use HISPlayer SDK within this mode.
 
 <p align="center">
 <img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bb06febd-a942-4948-835d-5a6fe23e911a">
-<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/fda546ce-080d-4dcb-9a66-f1a283d51d51">
+<img width=35% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/366fe4a5-2bbf-4cb6-b45a-2598a95ec9a2">
 </p>
 
 ### Deploy for Apple Vision Pro Device
@@ -119,7 +119,7 @@ In the case of using the **Apple Vision Pro simulator** for Xcode, please, follo
 </p>
 
 ## 2.1 Set up HISPlayer Manager
-*You may skip this section if you use [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample_3.3.3_Beta.unitypackage). The code set-up is already included in the sample script (HISPlayerController.cs).*
+*You may skip this section if you use [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/visionOS/HISPlayer_visionOS_Sample.unitypackage). The code set-up is already included in the sample script (HISPlayerController.cs).*
 
 Create a new script which will inherit from **HISPlayerManager**, for example, visionOSStreamController. It is necessary to add the **'using HISPlayerAPI;'** dependancy. Then, add this component to a new game object (recommended to be empty).
 
@@ -219,7 +219,7 @@ Use **Multi Stream Properties** to set all configurations needed for multi strea
 * <span style="color:blue">**Auto Transition**</span>: Property to change the playback to the next video in the playlist. This action won’t have effect when loopPlayback is true. It’s false by default.
   
 <p align="center">
-<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/449c713e-507b-4b9b-ad65-59d2ad3709c0">
+<img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/29c1c6c2-5a6c-416f-ae62-0a2c04199135">
 </p>
 
 ## 2.4 Build and Run:
