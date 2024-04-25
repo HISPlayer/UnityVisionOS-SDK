@@ -50,7 +50,7 @@ To check how to set up the SDK and API usage, please refer to:
   - MR Mode: **Assets/HISPlayerSample/Scripts/HISPlayerMRController.cs** and **HISPlayerController GameObject** in the Editor.
 
 ## UI Demo
-The UI components in the HISPlayerSampleVR.unity are fully modifiable and each stream has its own UI. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc using the multi stream feature. 
+The UI components in the HISPlayerSampleVR.unity are fully modifiable. The sample is intended to show a comprehensive scene using the HISPlayer SDK to help demonstrate features such as play, pause, seek, etc. 
 
 <p align="center">
   <img width=55% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/7b426d46-ab9f-4615-9159-74807ce98056">
@@ -72,14 +72,14 @@ You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream
 </p>
 
 <p align="center">
-  <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/e65f23af-cf95-4858-b654-d0199feecd71">
+  <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/4dd7a4e6-5c46-4b09-9f1e-a76848299657">
 </p>
 
 ### Change URL
 To change the default video URL using your own URL, please replace the element value with your own URL in the **URL list** of the stream you want to modify.
 
 <p align="center">
-  <img width=60% alt="replace-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/5b876db4-f3c9-4c98-84df-f23737070f50">
+  <img width=60% alt="replace-url" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/230d4396-77ca-44e0-ae0f-7edfe6996b2e">
 </p>
 
 ### Add/Remove URLs
@@ -88,6 +88,6 @@ You can add/remove URLs by selecting one element from the **Multi Stream Propert
 For changing the content of the videos, please refer to **[ChangeVideoContent](https://hisplayer.github.io/UnityVisionOS-SDK/#/hisplayer-api?id=protected-void-changevideocontentint-playerindex-int-urlindex)** API.
 
 <p align="center">
-  <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnityAndroid-SDK/assets/47497948/b65bf99f-202b-436e-a9c3-f1a6b9b97eaa">
+  <img width=70% alt="add-url" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/fa99bc29-0cc2-40c0-b47d-0f520d5b9603">
 </p>
 
