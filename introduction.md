@@ -12,7 +12,7 @@
   * AAC
 
 ### Supported Unity Versions
-* 2022
+* 2022.3
 
 ### Supported App mode
 * Virtual Reality - Fully Immersive Space
