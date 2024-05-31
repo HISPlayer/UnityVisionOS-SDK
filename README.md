@@ -1,8 +1,8 @@
 # HISPlayer Unity visionOS SDK
 
-HISPlayer is the most advanced Unity video streaming player for visionOS, supporting local, VOD and live contents.
+HISPlayer is the most advanced Unity video streaming player for visionOS, supporting local, VOD and live contents. 180, 360 stereo, mono videos. 
 It enables premium HLS video streaming inside your Unity games and metaverses on Apple Vision Pro, spatial computing device. We include advanced features 
-such as multistream or automatic bitrate adaptation to secure the best video quality.
+such as multistream or automatic bitrate adaptation to secure the best video quality to name few of them. 
 
 # [The full Documentation](https://hisplayer.github.io/UnityVisionOS-SDK/#/)
 
