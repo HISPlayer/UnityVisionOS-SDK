@@ -4,6 +4,11 @@ HISPlayer is the most advanced Unity video streaming player for visionOS, suppor
 It enables premium HLS video streaming inside your Unity games and metaverses on Apple Vision Pro, spatial computing device. We include advanced features 
 such as multistream or automatic bitrate adaptation to secure the best video quality to name few of them. 
 
+Our Apple Vision Pro SDK supported game or application modes. Choose the right mode for your content – mixed reality (MR/XR) or fully immersive (VR).
+* Fully immersive Virtual Reality / VR mode
+* Mixed Reality (Immersive & extended reality/XR) mode
+* Windowed (2D) mode
+
 # [The full Documentation](https://hisplayer.github.io/UnityVisionOS-SDK/#/)
 
 
