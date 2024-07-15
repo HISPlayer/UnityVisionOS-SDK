@@ -202,12 +202,13 @@ We recommend you to create your own shaders for the created material. Please, re
 
 ## 2.3 Configure HISPlayer Properties
 ### <ins>License Key</ins>
-Input the license key that is associated with the SDK. If the license key is not valid, the player won't work and will throw an error message. 
-License key is not required for Unity Editor usage.
+If you received a license key from HISPlayer, please input the license key in the **License Key** field.
 
 <p align="center">
 <img width=70% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f6b00f15-92c3-4f40-ac0f-5b59f1c729f6">
 </p>
+
+If the license key is not valid, the player won't work and will throw an error message. License key is not required for Unity Editor usage.
 
 ### <ins>Multi Stream Properties</ins>
 Use **Multi Stream Properties** to set all configurations needed for multi streams (not supported on Windows Editor). It starts with 0 elements. Each element added has its own configuration for multiple players and corresponds to 1 Render Surface. If you just need a single stream, then you just need to add 1 element with 1 URL.
