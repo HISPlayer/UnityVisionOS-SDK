@@ -1,5 +1,14 @@
 # HISPlayer Unity visionOS SDK Release Notes
 
+### Version 4.3.1
+##### August 8, 2024
+- [**Added**] New HISPlayer Video Uploader feature. Turn local videos into streaming videos such as HLS or DASH. This videos are going to be stored in our server for you. Please, on the Editor refer to:
+    - [HISPlayer Video Upload documentation](https://hisplayer.github.io/UnityVideoUpload/#/)
+- [**Improvement**] Optimized Event and Error listeners
+- [**Improvement**] Optimized license checking
+- [**Improvement**] Optimized HISPlayer API function commentaries to be more clear
+- [**Improvement**] Optimized runtime log messages
+
 ### Version 3.4.2
 ##### April 24, 2024
 - [**Added**] Custom resources to support the stereoscopic rendering mode for the VR mode.
