@@ -170,13 +170,14 @@ Move to **Unity Editor** to attach all the resources. The rendering system is su
 In the case of **Virtual Reality** mode, please, refer to **Packages > HISPlayer SDK > Resources > Materials > HISPlayerDefaultVisionOSMaterialRenderTexture.mat** and **Packages > HISPlayer SDK > Resources > RenderTextures > HISPlayerVisionOSRenderTexture.renderTexture**. You can attach the HISPlayerDefaultVisionOSMaterialRenderTexture.mat to the GameObject that is going to render the video content. Finally, attach HISPlayerVisionOSRenderTexture.renderTexture to the stream controller component.
 
 <p align="center">
-<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/2d4e3196-16a5-4728-80b4-bf1b6ddbb5a8">
+
+<img width=90% src="https://github.com/user-attachments/assets/361cfc66-2827-43b6-a50f-217641a58c4e">
 </p>
 
 </br>
 
 <p align="center">
-<img width=90% src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/65615f47-bb39-4c8c-bf30-7db12490d3a2">
+<img width=90% src="https://github.com/user-attachments/assets/a09ca9dd-1596-4ab0-935e-15d3d8eb66c8">
 </p>
 
 You can also create your own RenderTexture by clicking **Assets > Create > Render Texutre** and then create a **Material** referencing the **Render Texture**.
