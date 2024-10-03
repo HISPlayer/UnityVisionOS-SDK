@@ -72,7 +72,7 @@ You can add/remove streams by pressing the buttons **+/-** in the **Multi Stream
 </p>
 
 <p align="center">
-  <img width=70% alt="render-mode" src="https://github.com/HISPlayer/UnitySamples/assets/47497948/4dd7a4e6-5c46-4b09-9f1e-a76848299657">
+  <img width=70% alt="render-mode" src="https://github.com/user-attachments/assets/3f1722ac-cc3f-413c-a95b-2356cafe1a82">
 </p>
 
 ### Change URL
