@@ -2,7 +2,7 @@
 
 ### Version 4.3.1-1
 ##### October 3, 2024
-- [**Added**] Resources to play streams on regular screen for VR mode:
+- [**Added**] Resources to improve stream rendering for VR mode:
   - HISplayerDefaultVisionOSMaterialRenderTexture.mat
   - HISPlayerVisionOSRenderTexture.rendertexture
   - HISPlayerDefaultVisionOSShader.shader
