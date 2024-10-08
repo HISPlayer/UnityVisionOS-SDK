@@ -96,3 +96,12 @@ In the case of using the **Apple Vision Pro simulator** for Xcode, please, follo
 <p align="center">
   <img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/bd28a63f-5622-48f2-84cf-88cc3d10e46d">
 </p>
+
+## Update License Key
+If you received a license key from HISPlayer, please input the license key in the License Key field.
+
+<p align="center">
+<img width=70% alt="image" src="https://github.com/HISPlayer/UnityWebGL-SDK/assets/47497948/50b10c75-c6e0-438d-ba1f-da6e66d51eed">
+</p>
+
+If the license key is not valid, the player won’t work and will throw an error message. License key is not required for Unity Editor usage.
