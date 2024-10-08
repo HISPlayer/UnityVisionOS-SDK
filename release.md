@@ -1,5 +1,12 @@
 # HISPlayer Unity visionOS SDK Release Notes
 
+### Version 4.3.1-1
+##### October 3, 2024
+- [**Added**] Resources to improve stream rendering for VR mode:
+  - HISplayerDefaultVisionOSMaterialRenderTexture.mat
+  - HISPlayerVisionOSRenderTexture.rendertexture
+  - HISPlayerDefaultVisionOSShader.shader
+
 ### Version 4.3.1
 ##### August 8, 2024
 - [**Added**] New HISPlayer Video Uploader feature. Turn local videos into streaming videos such as HLS or DASH. This videos are going to be stored in our server for you. Please, on the Editor refer to:
