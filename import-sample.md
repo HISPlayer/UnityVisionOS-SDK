@@ -1,4 +1,5 @@
 # Import HISPlayer visionOS Sample
+[Request your Player SDK demo here.](https://hisplayer.com/demo-unity-visionos-player-sdk/) 
 
 Please, download the sample here -> [**HISPlayer visionOS Sample**](https://downloads.hisplayer.com/Unity/visionOS/HISPlayer_visionOS_Sample.unitypackage) 
 (no need to download it if you have received it in the email).
