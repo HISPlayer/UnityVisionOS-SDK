@@ -88,7 +88,7 @@ In the **Project** window, open **Packages > HISPlayer SDK > HISPlayer > Plugins
 In the case of using the **Apple Vision Pro device**, please, follow these steps:
  
  - Open **Project** window open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS**, select HISPlayerVisionOS.framework, exclude iOS and enable the option **Add to Embedded Binaries**.
- - Open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS > simulator**, select select HISPlayerVisionOS.framework and exclude visionOS platform.
+ - Open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS > simulator**, select HISPlayerVisionOS.framework and exclude visionOS platform.
 
 <p align="center">
   <img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/f29bdf62-22aa-4d3c-8788-e1914c7cfe23">
@@ -112,7 +112,7 @@ In the **Project** window, open **Packages > HISPlayer SDK > HISPlayer > Plugins
 In the case of using the **Apple Vision Pro simulator** for Xcode, please, follow these steps:
 
  - Open **Project** window open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS > simulator**, select HISPlayerVisionOS.framework, exclude iOS and enable the option **Add to Embedded Binaries**.
- - Open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS**, select select HISPlayerVisionOS.framework and exclude visionOS platform.
+ - Open **Packages > HISPlayer SDK > HISPlayer > Plugins > visionOS**, select HISPlayerVisionOS.framework and exclude visionOS platform.
 
 <p align="center">
   <img width=70% alt="image" src="https://github.com/HISPlayer/UnityVisionOS-SDK/assets/47497948/900fa562-3765-40a6-9665-38d0a86e3079">
