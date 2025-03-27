@@ -12,8 +12,8 @@ Our Unity visionOS Player SDK supported game or application modes. Whether you c
 
 <br>
 
-##  [NEW!](https://hisplayer.github.io/UnityVideoUpload/#/README)
-> **[HISPlayer Video Upload & Hosting](https://hisplayer.github.io/UnityVideoUpload/#/README)** is a new feature of our **Unity Video Player SDK**. It allows you to upload local video files from your computer to a server and transcode them into HLS and DASH streaming URLs directly from in Unity Editor. Need to convert your videos into HLS and DASH streams for multi-platform delivery? [Start your FREE Trial here!](https://dashboard.hisplayer.com/signup)
+##  🚀 HISPlayer Video Hosting Platform 🚀
+> **[HISPlayer Video Upload & Hosting](https://hisplayer.github.io/UnityVideoUpload/#/README)** is a new feature of our **Unity Video Player SDK**. It allows you to upload local video files from your computer to a server and transcode them into HLS and DASH streaming URLs directly from in Unity Editor. Need end-to-end video streaming solution in HLS and DASH formats for multi-platform delivery? [Start your FREE Trial here!](https://dashboard.hisplayer.com/signup)
 > 
 > We can help you with the full **end-to-end** video delivery and playback.
 >
