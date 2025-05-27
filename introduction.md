@@ -12,6 +12,7 @@
 
   * H.265 (HEVC)
     * Container Format must be fragmented MP4 (fMP4) files.
+    * Profile, Level, and Tier must be less than or equal to Main 10 Profile, Level 5.1, High Tier.
 
 ### Audio Codecs
   * AAC
